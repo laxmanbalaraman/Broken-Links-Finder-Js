@@ -1,0 +1,61 @@
+.result {
+  height: 100vh;
+}
+
+.result h1 {
+  text-align: center;
+  font-family: montserrat;
+  margin: 20px 0;
+  font-size: 40px;
+}
+
+.resultContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: center;
+  min-height: calc(100vh - 200px);
+}
+
+.loadingCaption {
+  color: darkorange;
+  font-family: "varela round";
+  font-size: 25px;
+}
+
+.resultTable {
+  text-align: center;
+  font-family: "varela round";
+}
+
+.resultTable tr {
+  font-size: 20px;
+  color: rgb(124, 124, 124);
+  padding: 10px;
+}
+
+.resultTable a {
+  text-decoration: none;
+  color: orange;
+}
+.progressCount {
+  display: flex;
+  justify-content: space-around;
+}
+
+.crawledCount,
+.brokenCount {
+  font-size: 25px;
+  color: rgb(149, 147, 147);
+  font-family: "varela round";
+}
+
+.crawledCount span {
+  color: rgb(17, 184, 8);
+  font-weight: bold;
+}
+
+.brokenCount span {
+  font-weight: bold;
+  color: tomato;
+}

@@ -1,0 +1,25 @@
+.nav {
+  box-sizing: border-box;
+  background-color: rgb(15, 0, 48);
+  border-bottom: 2px solid darkorange;
+}
+
+.navList {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.navList {
+  margin: 0;
+}
+
+.navListItem li {
+  margin: 0 50px;
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+  padding: 1rem 0;
+  font-family: Montserrat;
+  font-weight: 500;
+}

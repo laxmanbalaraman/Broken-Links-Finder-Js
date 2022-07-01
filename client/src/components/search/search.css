@@ -1,0 +1,48 @@
+.search {
+  background-image: linear-gradient(
+      90deg,
+      rgba(4, 16, 66, 0.7346288857339811) 28%,
+      rgba(9, 22, 60, 1) 81%
+    ),
+    url("https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  height: calc(100vh - 54.4px);
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  background-color: rgb(35, 35, 50);
+  background-color: white;
+}
+
+.title {
+  font-family: montserrat;
+  font-size: 50px;
+
+  color: rgb(255, 155, 42);
+  font-weight: 700;
+}
+
+.searchBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.brokenImage {
+  display: flex;
+  align-items: center;
+}
+
+.brokenImage img {
+  height: 400px;
+}
+
+.caption {
+  margin: 0;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-family: "Varela Round";
+}
